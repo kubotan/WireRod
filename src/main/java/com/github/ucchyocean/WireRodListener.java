@@ -197,7 +197,7 @@ public class WireRodListener implements Listener {
             if (block.getType() != Material.AIR) {
                 // ブロックが見つかった、針を中にワープさせる
                 Location location = block.getLocation().add(0.5, 0.5, 0.5);
-                hook.teleport(location);
+                // hook.teleport(location);     // FISHING_HOOKエンティティーがゴミとして残り続ける問題あり。現象はver1.15.2にて確認。
                 return location;
 
             }
@@ -210,7 +210,7 @@ public class WireRodListener implements Listener {
                 Location location = e.getLocation();
 
                 // LivingEntityが見つかった、針を載せる
-                hook.teleport(location);
+                // hook.teleport(location);     // FISHING_HOOKエンティティーがゴミとして残り続ける問題あり。現象はver1.15.2にて確認。
                 Compatibles.addPassenger(e, hook);
                 if (e instanceof LivingEntity) {
                     ((LivingEntity) e).damage(0F, player);
