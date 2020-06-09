@@ -1,5 +1,6 @@
 name: ${project.name}
 main: com.github.ucchyocean.WireRod
+api-version: ${project.api-version}
 version: ${project.version}
 authors: [ucchy, Stnsllet, LazyGon]
 description: ${project.description}

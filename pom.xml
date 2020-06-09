@@ -6,6 +6,7 @@
   <description>Magic wire-action item.</description>
 
   <properties>
+    <project.api-version>1.15</project.api-version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
