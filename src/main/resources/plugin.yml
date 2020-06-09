@@ -1,9 +1,8 @@
 name: ${project.name}
 main: com.github.ucchyocean.WireRod
 version: ${project.version}
-authors: [ucchy, Stnsllet]
+authors: [ucchy, Stnsllet, LazyGon]
 description: ${project.description}
-softdepend: [ColorTeaming]
 commands:
   wirerod:
     description: ${project.description}
